@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-10T01:27:42 BDT" name="Default suite" finished-at="2024-06-10T01:28:25 BDT" duration-ms="43530">
+    <groups>
+    </groups>
+    <test started-at="2024-06-10T01:27:42 BDT" name="Default test" finished-at="2024-06-10T01:28:25 BDT" duration-ms="43530">
+      <class name="Test.Task1">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:Test.Task1@6e0f5f7f]" started-at="2024-06-10T01:27:15 BDT" name="setDriver" finished-at="2024-06-10T01:27:42 BDT" duration-ms="26657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="create_event()[pri:1, instance:Test.Task1@6e0f5f7f]" started-at="2024-06-10T01:27:42 BDT" name="create_event" description="Task-1 --&gt; create event" finished-at="2024-06-10T01:28:00 BDT" duration-ms="18060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_event -->
+        <test-method signature="sign_in()[pri:2, instance:Test.Task1@6e0f5f7f]" started-at="2024-06-10T01:28:00 BDT" name="sign_in" description="Task-2 --&gt; sign in" finished-at="2024-06-10T01:28:08 BDT" duration-ms="7850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign_in -->
+        <test-method signature="mark_availability()[pri:3, instance:Test.Task1@6e0f5f7f]" started-at="2024-06-10T01:28:08 BDT" name="mark_availability" description="Task-3 --&gt; mark availbility from 10 am to 11 am" finished-at="2024-06-10T01:28:25 BDT" duration-ms="17521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mark_availability -->
+      </class> <!-- Test.Task1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
