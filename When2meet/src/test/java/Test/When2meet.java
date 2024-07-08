@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-public class Task1 extends Driver{
+public class When2meet extends Driver{
 	
 	@SuppressWarnings("deprecation")
 	@Test(priority=1, description = "Task-1 --> create event")
